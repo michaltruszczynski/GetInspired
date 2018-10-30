@@ -42,63 +42,74 @@ body {
 
 // Buttons 
 
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 100px;
+    width: 1000px;
+    margin: 25px auto;
+
+}
+
 .buttonContainer {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-a {
-    display: block;
-    width: 180px;
-    height: 50px;
-    background: #262626;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 50px;
-    color: #ff0;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    letter-spacing: 4px;
+.button1 {
+
+    a {
+        display: block;
+        width: 180px;
+        height: 50px;
+        background: #262626;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 50px;
+        color: #ff0;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing: 4px;
+        position: relative;
+    }
+    
+    a:before, a:after, span:before, span:after {
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background: #ff0;
+        transition: 1s;
+        mix-blend-mode: hue;
+    }
+    
+    a:before {
+        top: -2px;
+        left: -2px;
+    }
+    
+    a:after {
+        top: -2px;
+        right: -2px;
+    }
+    
+    span:before {
+        bottom: -2px;
+        left: -2px;
+    }
+    
+    span:after {
+        bottom: -2px;
+        right: -2px;
+    }
+    
+    a:hover:before, a:hover:after, a:hover span:before, a:hover span:after {
+        width: calc(180px /2);
+        height: calc(50px /2);
+    }
+
 }
-
-a:before, a:after, span:before, span:after {
-    content: '';
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background: #ff0;
-    transition: 1s;
-    mix-blend-mode: hue;
-}
-
-a:before {
-    top: -2px;
-    left: -2px;
-}
-
-a:after {
-    top: -2px;
-    right: -2px;
-}
-
-span:before {
-    bottom: -2px;
-    left: -2px;
-}
-
-span:after {
-    bottom: -2px;
-    right: -2px;
-}
-
-a:hover:before, a:hover:after, a:hover span:before, a:hover span:after {
-    width: calc(180px /2);
-    height: calc(50px /2);
-}
-
-
-
 
 

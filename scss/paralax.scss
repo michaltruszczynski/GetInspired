@@ -1,0 +1,45 @@
+#paralax {
+    p {
+        color: white;
+        font-size: 50px;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #box1 {
+        height: 100vh;
+        width: 100%;
+        background-image: url(../images/Paralax/i1.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #box2 {
+        height: 100vh;
+        width: 100%;
+        background-image: url(../images/Paralax/i2.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #box3 {
+        height: 100vh;
+        width: 100%;
+        background-image: url(../images/Paralax/i3.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    h1 {
+        display: block;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin: 0;
+        text-align: center;
+        text-shadow: 2px 2px 2px black;
+    }
+
+}

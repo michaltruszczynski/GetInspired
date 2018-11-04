@@ -1,0 +1,5 @@
+[1101/190122.692:ERROR:process_reader_win.cc(151)] SuspendThread: Odmowa dostêpu. (0x5)
+[1101/190122.811:ERROR:process_reader_win.cc(151)] SuspendThread: Odmowa dostêpu. (0x5)
+[1101/190122.811:ERROR:process_reader_win.cc(123)] NtOpenThread: Okreœlono nieprawid³owy identyfikator klienta. (0xc000000b)
+[1101/190122.826:ERROR:process_reader_win.cc(151)] SuspendThread: Odmowa dostêpu. (0x5)
+[1101/190122.826:ERROR:process_reader_win.cc(151)] SuspendThread: Odmowa dostêpu. (0x5)

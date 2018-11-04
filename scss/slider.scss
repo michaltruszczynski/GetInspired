@@ -1,0 +1,56 @@
+#mainSlider {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    #box {
+        height: 100vh;
+        width: 100%;
+        
+        img {
+            height: 80%;
+            width: 60%;
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            transform: translate(-50%, -50%);
+        }
+
+    }
+
+    #cars {
+        position: absolute;
+        top:-50%;
+
+        img {
+            height: 800px;
+            width: 1300px;
+            position: absolute;
+            left: 50px;
+        }
+    }
+
+    #menu {
+        height: 100vh;
+        width: 80px;
+        background-color: #222;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 9999;
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+}
